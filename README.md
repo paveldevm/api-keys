@@ -2,7 +2,7 @@
 
 ![Демонстрация интерфейса](assets/demo.png)
 
-## Возможности
+## Особенности
 
 - Таблица API-ключей с хранением данных в Redux
 - Сортировка и пагинация
@@ -14,14 +14,14 @@
 
 React 19, TypeScript, Redux Toolkit, MUI, React Hook Form, Yup, Vite
 
-## Запуск
+## Запуск в режиме разработки
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Сборка
+## Сборка и предпросмотр проекта
 
 ```bash
 npm run build
