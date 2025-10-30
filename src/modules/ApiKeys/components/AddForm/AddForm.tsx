@@ -36,11 +36,11 @@ const AddForm = memo(({ titleComponent, onSubmit }: AddFormProps) => {
 					render={({ field, fieldState }) => (
 						<AppTextField
 							label="Название"
-							aria-required="true"
-							{...field}
+							size="small"
 							error={fieldState.invalid}
 							helperText={fieldState.error?.message}
-							size="small"
+							slotProps={{ htmlInput: { 'aria-required': 'true' } }}
+							{...field}
 						/>
 					)}
 				/>
