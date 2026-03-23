@@ -30,4 +30,4 @@ npm run preview
 
 ## Демо
 
-https://pavelmalyv.github.io/api-keys/
+https://paveldevm.github.io/api-keys/
